@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>serials list</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+</head>
+<body>
+  <div class="container" align="center"> 
+    <h1>  Welcome</h1>
+    <br>
+    <div class="row">
+ 
+   
+     
+    <div class="col-md-4" ><h2>BOOKS</h2><div *ngFor="let results_book of results_books"><h5> {{results_book.name  }}</h5></div></div>
+      <div class="col-md-4"><h2>CHARACTERS</h2><div *ngFor="let results_character of results_characters"><h5> {{results_character.aliases  }}</h5></div></div>
+      <div class="col-md-4"><h2>HOUSES</h2><div *ngFor="let results_house of results_houses"><h5> {{results_house.name  }}</h5></div></div>
+      
+
+  </div></div>
+
+</body> 
+</html>
+
+
+
